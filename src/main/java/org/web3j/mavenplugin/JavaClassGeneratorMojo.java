@@ -196,8 +196,15 @@ public class JavaClassGeneratorMojo extends AbstractMojo {
         JsonNode abiData = objectMapper.readTree(fileContent);
 
         if (abiData.isObject() && abiData.has("abi") && abiData.has("bytecode")) {
+            String binary;
+            // forge artifact
+            if (abiData.get("bytecode").isObject()) {
+                binary = abiData.get("bytecode").get("object").asText();
+            } else {
+                binary = abiData.get("bytecode").asText();
+            }
             // truffle or hardhat artifact
-            results.put(SolidityCompiler.Options.BIN.getName(), abiData.get("bytecode").asText());
+            results.put(SolidityCompiler.Options.BIN.getName(), binary);
             results.put(SolidityCompiler.Options.ABI.getName(), objectMapper.writeValueAsString(abiData.get("abi")));
         } else {
             results.put(Options.BIN.getName(), "Bin file was not provided");
