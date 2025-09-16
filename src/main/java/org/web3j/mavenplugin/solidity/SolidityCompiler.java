@@ -75,7 +75,17 @@ public class SolidityCompiler {
     private Process getSolcProcessFromSokt(String rootDirectory, Collection<String> sources, String[] pathPrefixes, Options[] options) throws IOException {
         SolidityFile solidityFile = new SolidityFile(Paths.get(rootDirectory, sources.iterator().next()).toFile().getAbsolutePath());
         SolcInstance instance = solidityFile.getCompilerInstance(".web3j", true);
-        if (!instance.installed()) instance.install();
+        if (!instance.installed()) {
+            try {
+                instance.install();
+            } catch (Exception e) {
+                throw new RuntimeException(
+                        "Failed to download Solidity version " +
+                        "It may be a problem with your connection\n" +
+                        e
+                );
+            }
+        }
         usedSolCVersion = instance.getSolcRelease().getVersion();
         Process process;
         List<String> commandParts = prepareCommandOptions(instance.getSolcFile().getAbsolutePath(), rootDirectory, sources, pathPrefixes, options);
