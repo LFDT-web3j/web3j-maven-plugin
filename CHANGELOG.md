@@ -10,6 +10,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * add useful info for the user when being offline[#142](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/142)
 * Fix class generation when using Forge generated ABI files [#139](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/139)
+* Fix CVE-2025-48924 [#144](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/144)
 
 ### Features
 
