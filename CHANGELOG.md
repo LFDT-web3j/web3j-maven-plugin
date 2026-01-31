@@ -18,7 +18,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* 
+* change release repo and update to 5.0.2 [#145](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/145)
 
 # [4.14.0](https://github.com/LFDT-web3j/web3j-maven-plugin/releases/tag/v4.14.0)(2025-04-10)
 
