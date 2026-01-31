@@ -323,7 +323,7 @@ public class JavaClassGeneratorITest {
             .peek(file -> filenames.put(file.getFileName().toString(), file))
             .collect(Collectors.toList());
 
-        assertEquals("no files or too many files in default value", 2, java.size());
+        assertEquals("no files or too many files in default value", 3, java.size());
         assertTrue("Ownable contract has not been compiled", filenames.containsKey("Ownable.java"));
         assertTrue("OwnableAbiOnly contract has not been compiled", filenames.containsKey("OwnableAbiOnly.java"));
         assertTrue("ERC20 contract has not been compiled", filenames.containsKey("ERC20.java"));
