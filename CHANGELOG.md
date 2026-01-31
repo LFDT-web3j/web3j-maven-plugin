@@ -8,7 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-*
+* add useful info for the user when being offline[#142](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/142)
 ### Features
 
 * 
