@@ -285,7 +285,6 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <keyname>3C55BB78E011361C</keyname>
                             <gpgArguments>
                                 <arg>--pinentry-mode</arg>
                                 <arg>loopback</arg>
