@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 
-# [4.14.1]()(Upcoming)
+# [5.0.2]()(Upcoming)
 
 ### Bug Fixes
 
 * add useful info for the user when being offline[#142](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/142)
+* Fix class generation when using Forge generated ABI files [#139](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/139)
+
 ### Features
 
 * 
