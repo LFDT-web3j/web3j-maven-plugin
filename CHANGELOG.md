@@ -3,8 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.3]()(Upcoming)
 
-# [5.0.2]()(Upcoming)
+### Bug Fixes
+
+* 
+
+### Features
+
+*
+
+### BREAKING CHANGES
+
+*
+
+# [5.0.2](https://github.com/LFDT-web3j/web3j-maven-plugin/releases/tag/v5.0.2)(2026-01-31)
 
 ### Bug Fixes
 
@@ -18,7 +31,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* 
+* change release repo and update to 5.0.2 [#145](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/145)
 
 # [4.14.0](https://github.com/LFDT-web3j/web3j-maven-plugin/releases/tag/v4.14.0)(2025-04-10)
 
