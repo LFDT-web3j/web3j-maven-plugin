@@ -1,7 +1,5 @@
 package org.web3j.mavenplugin;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
@@ -20,6 +18,8 @@ import org.web3j.mavenplugin.solidity.SolidityCompiler;
 import org.web3j.mavenplugin.solidity.SolidityCompiler.Options;
 import org.web3j.protocol.ObjectMapperFactory;
 import org.web3j.protocol.core.methods.response.AbiDefinition;
+import tools.jackson.databind.JsonNode;
+import tools.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;

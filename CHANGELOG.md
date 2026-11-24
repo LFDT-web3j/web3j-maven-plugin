@@ -3,11 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [5.0.3]()(Upcoming)
+# [6.1.1]()(Upcoming)
 
 ### Bug Fixes
 
-* Update **web3j-sokt** to **0.7.0** and mark Maven runtime dependencies as `provided`. [#147](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/147)
+*
+
+### Features
+
+*
+
+### BREAKING CHANGES
+
+*
+
+# [6.1.0](https://github.com/LFDT-web3j/web3j-maven-plugin/releases/tag/v6.1.0)(2026-11-24)
+
+### Bug Fixes
+
+* Update **web3j-sokt** to **0.8.1** and mark Maven runtime dependencies as `provided`. [#147](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/147)
 * Fix Solidity compiler selection for projects with multiple pragma constraints by choosing a common compatible Solc version. [#150](https://github.com/LFDT-web3j/web3j-maven-plugin/pull/150)
 
 ### Features
