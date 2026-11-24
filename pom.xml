@@ -5,7 +5,7 @@
 
     <groupId>org.web3j</groupId>
     <artifactId>web3j-maven-plugin</artifactId>
-    <version>5.0.2</version>
+    <version>6.1.0</version>
     <packaging>maven-plugin</packaging>
 
     <name>web3j Maven Mojo</name>
@@ -23,7 +23,7 @@
         <maven.version>3.9.9</maven.version>
         <maven-plugin.version>3.13.0</maven-plugin.version>
 
-        <web3j.version>5.0.2</web3j.version>
+        <web3j.version>6.1.0</web3j.version>
 
         <!-- Central Portal publishing plugin -->
         <central.publishing.plugin.version>0.10.0</central.publishing.plugin.version>
@@ -147,7 +147,7 @@
         <dependency>
             <groupId>org.web3j</groupId>
             <artifactId>web3j-sokt</artifactId>
-            <version>0.7.0</version>
+            <version>0.8.1</version>
         </dependency>
 
         <dependency>
