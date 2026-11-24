@@ -216,7 +216,7 @@
                     <!-- Publish automatically after validation -->
                     <autoPublish>true</autoPublish>
 
-                    <deploymentName>maven-gradle-plugin-${project.version}</deploymentName>
+                    <deploymentName>maven-plugin-${project.version}</deploymentName>
                 </configuration>
             </plugin>
 
